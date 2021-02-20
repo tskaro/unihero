@@ -5,7 +5,6 @@ from resources.users import User_registration
 from resources.spacecrafts import SpaceCraftForAPI
 from flask_jwt import JWT
 from security import authentication, identity
-from populate import items
 
 app = Flask(__name__)
 app.secret_key = "my_secret_key"
